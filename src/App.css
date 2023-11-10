@@ -1,0 +1,63 @@
+body{
+  font-family:fantasy;
+  margin: 0 ;
+  padding: 0;
+}
+#root {
+  margin: 0 ;
+  padding: 0;
+}
+#nav{
+  font-size: 2vmax;
+  color:antiquewhite;
+  display: flex;
+  height: 5vmax;
+  width: 100%;
+  background-image: linear-gradient(purple,rgb(168, 3, 168));
+  align-items: center;
+  padding: 0 2vmax;
+}
+#logo{
+  display: flex;
+  align-items: center;
+}
+#logo img{
+  height: 5vh;
+  width: 3vw;
+}
+#logo span{
+  margin: 4px;
+}
+#meme{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7vmax;
+  flex-direction: column;
+}
+#meme img{
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+}
+#form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-input{
+  border-radius: 5px;  
+  margin: 5px;
+  text-indent: 5px;
+  height: 5vmin;
+  width: 15vmax;
+}
+#form-button{
+  height: 3vmax;
+  width: 15vmax;
+  background-image: linear-gradient(purple,rgb(168, 3, 168));
+  color: wheat;
+  border-radius: 2px;
+  margin: 4px;
+}
+
