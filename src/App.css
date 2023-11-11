@@ -13,9 +13,10 @@ body{
   display: flex;
   height: 5vmax;
   width: 100%;
-  background-image: linear-gradient(purple,rgb(168, 3, 168));
+  background-image: linear-gradient(135deg,purple,rgb(168, 3, 168));
   align-items: center;
   padding: 0 2vmax;
+
 }
 #logo{
   display: flex;
@@ -36,8 +37,8 @@ body{
   flex-direction: column;
 }
 #meme img{
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   margin: 5px;
 }
 #form{
@@ -61,3 +62,21 @@ body{
   margin: 4px;
 }
 
+#topText{
+    float: left;
+    position: absolute;
+    top: 45%;
+    font-size: 2vmax;
+    text-decoration: solid;
+     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+#bottomText{
+  float: left;
+    position: absolute;
+    top: 90%;
+    font-size: 2vmax;
+    text-decoration: solid;
+     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
